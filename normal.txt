@@ -1,0 +1,2 @@
+$mem = new MemoryCachePool();
+$mem->remove('AppNavCountTriggerContainer'.$user->getId());

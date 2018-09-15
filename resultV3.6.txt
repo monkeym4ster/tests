@@ -1,0 +1,19 @@
+
+执行sql:
+alter table xzweb.lodgeunit4se
+  add column bednum int default 0 comment '床铺数量' after bedinfo,
+  add column activities varchar(255) comment '优惠活动' after lodgeunittags;
+
+
+alter table xzweb.lodgeunit4se
+  drop column bednum,
+  drop column activities;
+
+
+执行脚本:
+    php script/crontab/statistics/landmarkdata.php
+
+
+    $sql = "delete from lodgeunitlabel where labelconfigid = ? or labelconfigid = ?";
+    $vals = array($nearMetroConfigId, $shoppingConvenientConfigId);
+    COMapping::getObject('ExStorageHandler', null, 'm')->execSql($sql, $vals);

@@ -1,0 +1,4 @@
+-- 闲鱼订单数据 zhoufeng@xiaozhu.com 异常数据-订单相关 闲鱼红包码-数据
+select a.id,a.bookorderid,accountid,a.amount,b.ownerid userid,b.facevalue,b.amount aamount,b.createtime,b.objid,b.objtype,b.couponruleid,b.lastupdatetime,1 from bookorderpayfromaccount a inner join account b on a.accountid=b.id where b.source='activity_id_38926449504';
+-- 闲鱼订单数据 zhoufeng@xiaozhu.com 异常数据-账户使用 闲鱼红包码-数据
+select a.id,a.ownerid userid,a.facevalue,a.amount,a.createtime,a.objid,a.objtype,a.transid,a.couponruleid,a.lastupdatetime,b.id itemid,b.type,b.balance,b.objid itemobjid,b.objtype bobjtype,b.remark,b.operid,b.createtime itemcreate,1 from account a inner join accountitem b on a.id=b.accountid where a.source='activity_id_38926449504';

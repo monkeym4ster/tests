@@ -1,0 +1,31 @@
+Notice:
+所有reset()方法中非参数的存在
+Trying to get property of non-object
+
+
+
+
+
+
+Warning:
+Declaration of LandlordMallRedDotService::getRedDot()       =>getRedDot()容易处理
+Declaration of LodgeUnit::create
+Declaration of *::decorateParamVal()
+shuffle() expects parameter 1 to be array, null given in ActivityAppliction.php on line 7313
+Warning:  Illegal string offset 'name'
+
+
+
+
+
+
+
+Error:
+getTenantsByUserV2()    $tenants=''   => array()
+BookorderParamCheck     $user = $this->getLoginUser();
+
+
+
+
+Other:
+messages like "strict" and "deprecated" should be treated as an explicit warning that your code is likely to break in future versions.
