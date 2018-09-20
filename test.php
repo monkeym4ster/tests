@@ -1,8 +1,5 @@
 <?php
 
-$arr = array();
-$res = [];
-foreach ($arr as $item) {
-    $res[$item] = 1;
-}
-var_dump($res);
+$a = 1;
+$arr = [0, 2, 4];
+$key = array_search($a, $arr);
