@@ -28,23 +28,18 @@ do {
         echo "socket_accept() failed: reason: " . socket_strerror($msgsock) . "\n";
         break;
     } else {
-
         //发到客户端
-        $msg ="测试成功！\n";
+        $msg ="服务端成功！\n";
         socket_write($msgsock, $msg, strlen($msg));
 
-        echo "测试成功了啊\n";
+        echo "服务端成功了啊\n";
         $buf = socket_read($msgsock,8192);
-
-
         $talkback = "收到的信息:$buf\n";
         echo $talkback;
 
         if(++$count >= 5){
             break;
         };
-
-
     }
     //echo $buf;
     socket_close($msgsock);

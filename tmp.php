@@ -6,4 +6,3 @@ $arr = [
         'endTime' => '2018-09-31 23:59:59',
     ]
 ];
-$uname = 'xianyudiscountactivityid';
