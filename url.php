@@ -1,12 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: feng
- * Date: 2018/7/25
- * Time: 下午3:28
- */
 
-$url = "http%3A%2F%2Fservice-stub-zhoufeng.dev.xiaozhu.com%2Fxzweb.php%3Fop%3DSendInfoEvent%26inforemindrecallid%3D23009612011%26bizobjid%3D70000059627600%26bizobjtype%3D133";
-echo urldecode($url) . "\n";
+$url = 'http%3A%2F%2Fservice-xzremind-yinruyu.dev.xiaozhu.com%2Fremind.php%3Fop%3DSendInfoEvent%26remindEventId%3D19300%26sendcallbackDTO%3D70000061164900SC1002419507071541661547468901%26bizId%3D70000061164900%26bizType%3D133';
 
-$array = [1,2,3];
+echo urldecode($url)."\n;";

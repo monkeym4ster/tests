@@ -1,10 +1,11 @@
 <?php
 
-$arr = [1, 2];
-echo '(' . implode(',', $arr) . ")\n";
+$arr1 = [1, 2, 3, 4, 5, 6, 7, 8];
+$arr2 = [1, 2, 3, 4, 5, 6, 7, 8];
+//$arr2 = [1, 3, 4, 8, 10];
+$arr3 = [];
+$expireTime = date('Y-m-d 23:59:59', strtotime('+7 days'));
 
-function kempty($var)
-{
-    return !(isset($var) && !empty($var) && !is_null($var));
-}
-var_dump(kempty(false));
+$res = array_diff($arr1, $arr2);
+//shuffle($res);
+var_dump($res,$expireTime);
