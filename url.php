@@ -1,5 +1,5 @@
 <?php
 
-$url = 'http%3A%2F%2Fservice-xzremind-yinruyu.dev.xiaozhu.com%2Fremind.php%3Fop%3DSendInfoEvent%26remindEventId%3D19300%26sendcallbackDTO%3D70000061164900SC1002419507071541661547468901%26bizId%3D70000061164900%26bizType%3D133';
+$url = 'http%3A%2F%2Fxzcallback-fdmall-zhoufeng.dev.xiaozhu.com%2Fxzweb.php%3Fop%3DTriggerContainerTimer%26containerId%3D64%26objId%3D70000076044000%26objType%3D133%26timerId%3D64_70000076044000_133_000%26transferDatas%3DN%253B';
 
 echo urldecode($url)."\n;";

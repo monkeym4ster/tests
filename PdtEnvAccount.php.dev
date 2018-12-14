@@ -1,0 +1,106 @@
+<?php
+
+class PdtEnvAccount
+{
+    public static $RizuExStorageConfigs = array(
+        "global" => array(
+            "m" => array(
+                "host" => "10.0.2.72",
+                "port" => "4306",
+                "userName" => "xztest",
+                "password" => "9sk24i121e87dbf86e02id73hee6db8",
+                "dbName" => "xzweb",
+            ),
+            "s" => array(
+                0 => array(
+                    "host" => "10.0.2.72",
+                    "port" => "4306",
+                    "userName" => "xztest",
+                    "password" => "9sk24i121e87dbf86e02id73hee6db8",
+                    "dbName" => "xzweb",
+                ),
+            ),
+            "ss" => array(
+                0 => array(
+                    "host" => "10.0.2.72",
+                    "port" => "4306",
+                    "userName" => "xztest",
+                    "password" => "9sk24i121e87dbf86e02id73hee6db8",
+                    "dbName" => "xzweb",
+                ),
+            ),
+            "sss" => array(
+                0 => array(
+                    "host" => "10.0.2.72",
+                    "port" => "4306",
+                    "userName" => "xztest",
+                    "password" => "9sk24i121e87dbf86e02id73hee6db8",
+                    "dbName" => "xzweb",
+                ),
+            ),
+        ),
+    );
+
+    public static $memcacheServers = array(
+        array('host' => '10.0.2.222', 'port' => '11211', 33),
+    );
+
+    public static $redisConfigs = array(
+        "m" => array(
+            "host" => "10.0.2.222",
+            "port" => "6379",
+            "password" => "9f83d4682ba8b962",
+        ),
+        "s" => array(
+            0 => array(
+                "host" => "10.0.2.222",
+                "port" => "6379",
+                "password" => "9f83d4682ba8b962",
+            ),
+            1 => array(
+                "host" => "10.0.2.222",
+                "port" => "6379",
+                "password" => "9f83d4682ba8b962",
+            ),
+        ),
+    );
+
+    public static $XZLandlordMallExStorageConfigs = array(
+        "global" => array(
+            "m" => array(
+                "host" => "10.0.2.72",
+                "port" => "4306",
+                "userName" => "xztest",
+                "password" => "9sk24i121e87dbf86e02id73hee6db8",
+                "dbName" => "xzlandlordmall",
+            ),
+            "s" => array(
+                0 => array(
+                    "host" => "10.0.2.72",
+                    "port" => "4306",
+                    "userName" => "xztest",
+                    "password" => "9sk24i121e87dbf86e02id73hee6db8",
+                    "dbName" => "xzlandlordmall",
+                ),
+            ),
+            "ss" => array(
+                0 => array(
+                    "host" => "10.0.2.72",
+                    "port" => "4306",
+                    "userName" => "xztest",
+                    "password" => "9sk24i121e87dbf86e02id73hee6db8",
+                    "dbName" => "xzlandlordmall",
+                ),
+            ),
+            "sss" => array(
+                0 => array(
+                    "host" => "10.0.2.72",
+                    "port" => "4306",
+                    "userName" => "xztest",
+                    "password" => "9sk24i121e87dbf86e02id73hee6db8",
+                    "dbName" => "xzlandlordmall",
+                ),
+            ),
+        ),
+    );
+}

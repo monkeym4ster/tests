@@ -71,8 +71,8 @@ class Interpreter
                     $expression = new ExpressionCharater();
             }
             echo $expression->interpreter($temp);
-            echo "<br>";
         }
+        echo "\n";
     }
 }
 
